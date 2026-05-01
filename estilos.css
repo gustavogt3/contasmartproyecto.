@@ -1,0 +1,166 @@
+/* ===== ESTILO GENERAL ===== */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+}
+
+/* ===== HEADER ===== */
+
+header {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ===== MENU ===== */
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== SECCIONES ===== */
+
+section {
+    background-color: white;
+    margin: 30px auto;
+    padding: 25px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* ===== TITULOS ===== */
+
+h2 {
+    color: #1e3a5f;
+}
+
+/* ===== TABLAS ===== */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #1e3a5f;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+/* ===== FORMULARIO ===== */
+
+input, textarea {
+    width: 95%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* ===== BOTON ===== */
+
+button {
+    background-color: #1e3a5f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2c5a8a;
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+/* CONTENEDOR DE CONTADORES */
+
+.contenedor-contadores {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* TARJETA CONTADOR */
+
+.contador {
+    background: white;
+    width: 250px;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* FOTO CONTADOR */
+
+.contador img {
+    width: 100%;
+    border-radius: 10px;
+}
+/* ===== HEADER PROFESIONAL ===== */
+
+.menu-inicio {
+    background-color: #1e3a5f;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+/* LOGO Y NOMBRE JUNTOS */
+
+.logo-nombre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+/* LOGO */
+
+.logo-nombre img {
+    width: 80px;
+}
+
+/* NOMBRE EMPRESA */
+
+.logo-nombre h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+/* BIENVENIDA */
+
+.bienvenida {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.logo-nombre h1 {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
